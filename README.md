@@ -25,6 +25,8 @@ podman build -t doraeric/p4c "https://github.com/doraeric/p4c-docker.git#main"
 
 ## Usage
 
+You can save the alias in `~/.bashrc`, so it's added to bash automatically.
+
 ```sh
 # for docker
 alias p4c-bm2-ss='docker run --rm \
